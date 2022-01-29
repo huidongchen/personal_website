@@ -82,6 +82,6 @@ highlight_name: true
 
 I am currently a Senior Scientist at <a href="https://morphictx.com/">Morphic Therapeutic</a>. My research interests lie in the areas of computational biology and machine learning, including developing algorithms and statistical models, establishing scalable and efficient packages and pipelines, and designing visualization tools for large-scale biological data, with specialization in single cell analysis.
 
-Personally, I enjoy hiking, exploring new places, and also a good Netflix binge.
+Personally, I enjoy hiking, photography, exploring new places, and also a good Netflix binge.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
