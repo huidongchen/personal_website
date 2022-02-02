@@ -5,7 +5,7 @@
 
 title: Huidong Chen # Website name
 baseurl: 'https://huidongchen.github.io/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: '© {year} Huidong Chen' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
