@@ -31,7 +31,7 @@ feature:
 - description: ""
   icon: robot
   icon_pack: fas
-  name: Machine-Learnings
+  name: Machine-Learning
 - description: ""
   icon: chart-line
   icon_pack: fas
