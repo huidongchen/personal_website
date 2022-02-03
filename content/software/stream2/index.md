@@ -3,7 +3,7 @@ title: STREAM2
 summary: Fast, scalable, and interactive trajectory analysis of single-cell omics data.
 tags:
 - Python
-date: "2022-02-03"
+# date: "2022-02-03"
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://stream-bio.readthedocs.io"

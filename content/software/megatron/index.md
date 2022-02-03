@@ -3,7 +3,7 @@ title: MEGATRON
 summary: MEGA TRajectories of clONes.
 tags:
 - Python
-date: "2022-02-03"
+# date: "2022-02-03"
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://megatron-bio.readthedocs.io"

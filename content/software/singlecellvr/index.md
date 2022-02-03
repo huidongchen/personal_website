@@ -4,7 +4,7 @@ summary: A user-friendly web application for visualizing single-cell data, desig
 tags:
 - Python
 - Dash
-- A-Frame
+- JavaScript
 date: "2021-10-31"
 
 # Optional external URL for project (replaces project detail page).

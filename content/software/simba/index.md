@@ -1,6 +1,6 @@
 ---
 title: SIMBA
-summary: SIMBA ( SIngle-cell eMBedding Along with features) is a versatile single-cell embedding method that co-embeds cells and features into the same latent space.
+summary: SIMBA ( SIngle-cell eMBedding Along with features) is a versatile single-cell embedding method that co-embeds cells and features into the same latent space. https://simba-bio.readthedocs.io
 tags:
 - Python
 date: "2021-10-29"
