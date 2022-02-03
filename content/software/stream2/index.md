@@ -1,5 +1,5 @@
 ---
-title: STREAM2
+title: STREAM2 (coming soon)
 summary: Fast, scalable, and interactive trajectory analysis of single-cell omics data.
 tags:
 - Python
