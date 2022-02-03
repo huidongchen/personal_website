@@ -1,53 +1,54 @@
 ---
-# An instance of the Accomplishments widget.
+# An instance of the Portfolio widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: accomplishments
+widget: portfolio
 
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 65
 
-# Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Software'
-subtitle:
+title: Software
+subtitle: ''
 
-# Date format
-#   Refer to https://wowchemy.com/docs/customization/#date-format
-date_format: Jan 2006
+content:
+  # Page type to display. E.g. project.
+  page_type: software
 
-# Accomplishments.
-#   Add/remove as many `item` blocks below as you like.
-#   `title`, `organization`, and `date_start` are the required parameters.
-#   Leave other parameters empty if not required.
-#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-item:
-- certificate_url: https://www.coursera.org
-  date_end: ""
-  date_start: "2021-01-25"
-  description: ""
-  organization: Coursera
-  organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
-  url: ""
-- certificate_url: https://www.edx.org
-  date_end: ""
-  date_start: "2021-01-01"
-  description: Formulated informed blockchain models, hypotheses, and use cases.
-  organization: edX
-  organization_url: https://www.edx.org
-  title: Blockchain Fundamentals
-  url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-- certificate_url: https://www.datacamp.com
-  date_end: "2020-12-21"
-  date_start: "2020-07-01"
-  description: ""
-  organization: DataCamp
-  organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R'
-  url: ""
+  # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+  filter_default: 0
+
+  # Filter toolbar (optional).
+  # Add or remove as many filters (`filter_button` instances) as you like.
+  # To show all items, set `tag` to "*".
+  # To filter by a specific tag, set `tag` to an existing tag name.
+  # To remove the toolbar, delete the entire `filter_button` block.
+  filter_button:
+  - name: All
+    tag: '*'
+  - name: Python
+    tag: Python
+  - name: R
+    tag: R
+  - name: Docker
+    tag: Docker
+  - name: Dash
+    tag: Dash
+  - name: JavaScript
+    tag: JavaScript 
 
 design:
-  columns: '2' 
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: '2'
+
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   5 = Showcase
+  view: 2
+
+  # For Showcase view, flip alternate rows?
+  flip_alt_rows: false
 ---
