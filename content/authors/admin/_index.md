@@ -6,24 +6,25 @@ title: Huidong Chen
 superuser: true
 
 # Role/position/tagline
-role: Senior Scientist
+role: Machine Learning Enthusiast 
 
 # Organizations/Affiliations to show in About widget
-organizations:
-- name: Morphic Therapeutic
-  url: https://morphictx.com/
+# organizations:
+# - name: Morphic Therapeutic
+#   url: https://morphictx.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include computational biology and machine learning.
+# bio: A passionate machine learning enthusiast constantly exploring the cutting-edge advancements in artificial intelligence, deep learning models, and their real-world applications.
 
 # Interests to show in About widget
 interests:
-- Single Cell
-- Multiomics
-- Computational Biology
-- Biostatistics
-- Machine Learning
 - Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Generative AI
+- Neural Networks
+- GNN, LLM, CNN
+
 
 # Education to show in About widget
 education:
@@ -79,9 +80,6 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-I am currently a Senior Scientist at <a href="https://morphictx.com/">Morphic Therapeutic</a>. My research interests lie in the areas of computational biology and machine learning, including developing algorithms and statistical models, establishing scalable and efficient packages and pipelines, and designing visualization tools for large-scale biological data, with specialization in single cell analysis.
-
-Personally, I enjoy hiking, tennis, exploring new places, and also a good Netflix binge.
+A passionate machine learning enthusiast constantly exploring the cutting-edge advancements in artificial intelligence, deep learning models, and their real-world applications.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
