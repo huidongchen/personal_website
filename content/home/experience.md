@@ -22,14 +22,23 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Senior Scientist
+  - title: Staff Data Scientist
+    company: Valo Health
+    company_url: 'https://www.valohealth.com/'
+    # company_logo: org-gc
+    location: Massachusetts, USA
+    date_start: '2024-03-01'
+    date_end: ''
+    description: 
+
+  - title: Senior Data Scientist
     company: Morphic Therapeutic
     company_url: 'https://morphictx.com/'
     # company_logo: org-gc
     location: Massachusetts, USA
     date_start: '2021-07-01'
-    date_end: ''
-    description: Develop or apply new tools, algorithms, and data mining techniques for the integrative analysis of large genomic datasets for use in the development of oral integrin therapies.
+    date_end: '2024-03-01'
+    description: 
         
   - title: Postdoctoral Fellow
     company: Massachusetts General Hospital & Harvard Medical School​
@@ -38,11 +47,7 @@ experience:
     location: Massachusetts, USA
     date_start: '2018-09-01'
     date_end: '2021-07-01'
-    description: |2-
-        * Developed single cell embedding method [SIMBA](https://simba-bio.readthedocs.io/) for the co-embeddings of cells and features
-        * Developed single cell omics trajectory inference tool [STREAM](https://github.com/pinellolab/STREAM).
-        * Benchmarked the performances of single-cell trajectory inference tools based on topology correctness and pseudotime accuracy
-        * Developed single cell Virtual Reality tool [​singlecellVR](https://singlecellvr.pinellolab.partners.org/) with Dash by plotly and A-Frame
+    description: 
 
 
   - title: Postdoctoral Fellow
@@ -52,10 +57,7 @@ experience:
     location: Massachusetts, USA
     date_start: '2019-02-01'
     date_end: '2021-07-01'
-    description: |2-
-        * Provided the first systematic [single cell ATAC-seq computational method benchmarking](https://github.com/pinellolab/scATAC-benchmarking) study.
-        * Assessed ten scATAC-seq computational pipelines and created a valuable resource for scATAC-seq study with more than 100 well-documented Jupyter notebooks
-        * Implemented XGBboost to solve regression problem for predicting gene expression level from scATAC-seq analysis
+    description:
 
 
   - title: Research Assistant
@@ -65,11 +67,7 @@ experience:
     location: Massachusetts, USA
     date_start: '2016-10-01'
     date_end: '2018-08-01'
-    description: |2-
-      * Contributed to a scalable unsupervised structure learning method *​ElPiGraph*​ for approximating complex topologies via principal graph
-      * Performed and benchmarked various clustering analyses for cell type identification
-      * Performed and benchmarked various dimensionality reduction methods for single-cell visualization
-      * Developed statistical hypothesis testing methods for single-cell marker detection
+    description: 
 
   - title: Research Scholar
     company: Dana-Farber Cancer Institute​ & Harvard T.H. Chan School of Public Health
@@ -78,10 +76,7 @@ experience:
     location: Massachusetts, USA
     date_start: '2015-09-01'
     date_end: '2017-09-01'
-    description: |2-
-        * Co-developer of a Gini-index-based novel computational method ​[GiniClust](https://github.com/lanjiangboston/GiniClust)​ to detect rare cells using the density-based clustering method DBSCAN
-        * Performed single cell RNA-seq trajectory inference analysis to dissect hematopoietic and renal cell heterogeneity in adult zebrafish
-        * Performed single-cell RNA-seq dataset alignment across experiments for human pluripotent stem cells early differentiation study
+    description:
 
   - title: Graduate researcher
     company: Tongji University​
@@ -90,18 +85,7 @@ experience:
     location: Shanghai, China
     date_start: '2012-09-01'
     date_end: '2015-09-01'
-    description: |2-
-        * Developed a Bayesian-nonparametric-modeling-based novel approach ​*DPNuc*​ for identifying nucleosome positions using the Dirichlet process mixture model
-        * Applied Markov chain Monte Carlo (MCMC) simulations to estimate the parameters
-
-  - title: Teaching Assistant
-    company: Tongji University​
-    company_url: 'https://en.tongji.edu.cn/'
-    # company_logo: org-x
-    location: Shanghai, China
-    date_start: '2012-09-01'
-    date_end: '2013-06-01'
-    description: Led hands-on SQL language sessions and taught students how to access and manipulate databases. Taught weekly sections, held office hours, and assisted with grading homework and exams.
+    description:
 
   - title: Purchasing Intern
     company: Faurecia
@@ -110,8 +94,7 @@ experience:
     location: Shanghai, China
     date_start: '2011-10-01'
     date_end: '2011-11-01'
-    description: Processed office forms and maintained the database of orders to assist with purchasing tasks.
-
+    description: 
 design:
   columns: '2'
 ---

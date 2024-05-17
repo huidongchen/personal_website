@@ -17,7 +17,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2021-10-18"
+date: "2023-05-29"
 # doi: "10.1038/s41467-019-09670-4"
 
 # # Schedule page publish date (NOT publication's date).
@@ -30,10 +30,10 @@ date: "2021-10-18"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: bioRxiv
+publication: Nature Methods
 # publication_short: 
 
-abstract: Recent advances in single-cell omics technologies enable the individual and joint profiling of cellular measurements including gene expression, epigenetic features, chromatin structure and DNA sequences. Currently, most single-cell analysis pipelines are cluster-centric, i.e., they first cluster cells into non-overlapping cellular states and then extract their defining genomic features. These approaches assume that discrete clusters correspond to biologically relevant subpopulations and do not explicitly model the interactions between different feature types. In addition, single-cell methods are generally designed for a particular task as distinct single-cell problems are formulated differently. To address these current shortcomings, we present SIMBA, a graph embedding method that jointly embeds single cells and their defining features, such as genes, chromatin accessible regions, and transcription factor binding sequences into a common latent space. By leveraging the co-embedding of cells and features, SIMBA allows for the study of cellular heterogeneity, clustering-free marker discovery, gene regulation inference, batch effect removal, and omics data integration. SIMBA has been extensively applied to scRNA-seq, scATAC-seq, and dual-omics data. We show that SIMBA provides a single framework that allows diverse single-cell analysis problems to be formulated in a unified way and thus simplifies the development of new analyses and integration of other single-cell modalities.
+abstract: Most current single-cell analysis pipelines are limited to cell embeddings and rely heavily on clustering, while lacking the ability to explicitly model interactions between different feature types. Furthermore, these methods are tailored to specific tasks, as distinct single-cell problems are formulated differently. To address these shortcomings, here we present SIMBA, a graph embedding method that jointly embeds single cells and their defining features, such as genes, chromatin-accessible regions and DNA sequences, into a common latent space. By leveraging the co-embedding of cells and features, SIMBA allows for the study of cellular heterogeneity, clustering-free marker discovery, gene regulation inference, batch effect removal and omics data integration. We show that SIMBA provides a single framework that allows diverse single-cell problems to be formulated in a unified way and thus simplifies the development of new analyses and extension to new single-cell modalities. SIMBA is implemented as a comprehensive Python library (https://simba-bio.readthedocs.io).
 
 # Summary. An optional shortened abstract.
 summary: SIMBA is a method to embed cells along with their defining features such as gene expression, transcription factor binding sequences and chromatin accessibility peaks into the same latent space. The joint embedding of cells and features allows SIMBA to perform various types of single cell tasks, including but not limited to single-modal analysis (e.g. scRNA-seq and scATAC-seq analysis), multimodal analysis, batch correction, and multi-omic integration.
@@ -48,7 +48,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.biorxiv.org/content/10.1101/2021.10.17.464750v2.full.pdf'
+url_pdf: 'https://www.nature.com/articles/s41592-023-01899-8.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

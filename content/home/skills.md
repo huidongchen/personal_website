@@ -25,21 +25,21 @@ feature:
   icon_pack: fab
   name: R
 - description: ""
-  icon: dna
-  icon_pack: fas
-  name: Bioinformatics
-- description: ""
   icon: robot
   icon_pack: fas
-  name: Machine-Learning
+  name: Artificial Intelligence
 - description: ""
   icon: chart-line
   icon_pack: fas
-  name: Statistics
+  name: Machine Learning
+- description: ""
+  icon: brain
+  icon_pack: fas
+  name: Deep Learning
 - description: ""
   icon: palette
   icon_pack: fas
-  name: Illustrator
+  name: Visualization
 
 
 # Uncomment to use emoji icons.
